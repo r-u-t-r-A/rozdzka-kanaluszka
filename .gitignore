@@ -1,0 +1,29 @@
+# PlatformIO build output, downloaded libraries and caches
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# VSCode: keep recommended extensions, drop machine-specific generated files
+.vscode/*
+!.vscode/extensions.json
+.vscode/.browse.c_cpp.db*
+.vscode/ipch
+
+# Other build artifacts
+*.bin
+*.elf
+*.map
+*.o
+*.a
+compile_commands.json
+
+# Python (helper scripts)
+__pycache__/
+*.pyc
+
+# Editors and OS
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
